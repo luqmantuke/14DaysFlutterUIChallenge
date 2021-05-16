@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:twitter_clone/utils/app_constants.dart';
+import 'package:twitter_clone/widgets/stories.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,6 +42,14 @@ class MyApp extends StatelessWidget {
               ],
             )
           ],
+        ),
+        body: Container(
+          child: Column(
+            children: [
+              Stories(),
+              
+            ],
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
