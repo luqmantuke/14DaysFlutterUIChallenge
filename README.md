@@ -4,3 +4,7 @@ or My Own Apps that I use Example <b><u>Twitter,Youtube e.t.c</u></b>.
 
 <b>Day 01 Twitter UI Clone</b>
 
+This is a Twitter Homepage Clone. HardCoded to save time.
+
+Screenshots:
+<img src="twitter_clone/screenshots/hardcoded.png">
