@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:twitter_clone/utils/app_constants.dart';
+import 'package:twitter_clone/widgets/bottom_navigation_bar.dart';
 import 'package:twitter_clone/widgets/stories.dart';
 
 void main() {
@@ -51,9 +53,10 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
+        bottomNavigationBar: MyBottomNavigationBar(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: Icon(Icons.edit_outlined),
+          child: Icon(FontAwesomeIcons.featherAlt),
         ),
       ),
     );
