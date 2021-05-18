@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:twitter_clone/utils/app_constants.dart';
 import 'package:twitter_clone/widgets/bottom_navigation_bar.dart';
 import 'package:twitter_clone/widgets/stories.dart';
+import 'package:twitter_clone/widgets/tweet_feed.dart';
 
 void main() {
   runApp(MyApp());
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Stories(),
-              
+              TweetFeed(),
             ],
           ),
         ),
