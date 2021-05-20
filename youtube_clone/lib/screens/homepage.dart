@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_clone/utils/app_constrants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:youtube_clone/widgets/bottom_navigation_bar.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: MyBottomNavigationBar(),
       appBar: AppBar(
         title: Image.asset(
           logo,
@@ -25,8 +27,9 @@ class MyHomePage extends StatelessWidget {
               Container(
                   margin: EdgeInsets.only(right: 30),
                   child: Icon(FontAwesomeIcons.search)),
-              Container(                  margin: EdgeInsets.only(right:10),
-child: Icon(FontAwesomeIcons.userCircle))
+              Container(
+                  margin: EdgeInsets.only(right: 10),
+                  child: Icon(FontAwesomeIcons.userCircle))
             ],
           )
         ],
