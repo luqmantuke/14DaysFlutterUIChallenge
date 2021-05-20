@@ -16,7 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Twitter Clone',
-      theme: ThemeData(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.black,
+        
+      ),
       home: Scaffold(
         drawer: Drawer(),
         appBar: AppBar(
