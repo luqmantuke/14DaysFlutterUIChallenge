@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:youtube_clone/utils/app_constrants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:youtube_clone/widgets/bottom_navigation_bar.dart';
+import 'package:youtube_clone/models/videos.dart';
+import 'package:youtube_clone/widgets/video_feed.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -34,6 +36,7 @@ class MyHomePage extends StatelessWidget {
           )
         ],
       ),
+      body: Videos(),
     );
   }
 }
