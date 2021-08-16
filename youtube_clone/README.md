@@ -7,4 +7,4 @@ A new Flutter project.
 This is a Youtube UI clone. Just homepage made. 
 
 Screenshots:
-<img src="youtube_clone/screenshots/homepage.png">
+<img src="https://github.com/luqmantuke/14DaysFlutterUIChallenge/blob/master/youtube_clone/screenshots/homepage.png?raw=true">
